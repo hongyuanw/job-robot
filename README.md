@@ -17,7 +17,7 @@ a robot that syncs job information to WeChat group
 
 ## Technology stack
  - Spring
-  - spring-boot
+   - spring-boot
  - Apache HttpClient
  - Jsoup - Java HTML Parser
  - Quartz - Scheduler
