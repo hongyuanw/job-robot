@@ -6,6 +6,7 @@ package com.yuanwhy.jobrobot.crawler.impl;
 
 import com.yuanwhy.jobrobot.crawler.Parser;
 import com.yuanwhy.jobrobot.model.PositionModel;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
@@ -13,6 +14,7 @@ import java.util.List;
  * @author hongyuan.why
  * @version $Id: HtmlParser.java, v 0.1 2018-10-11 10:28 PM hongyuan.why Exp $$
  */
+@Service
 public class HtmlParser implements Parser {
 
 

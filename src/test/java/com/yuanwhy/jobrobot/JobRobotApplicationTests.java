@@ -1,5 +1,6 @@
 package com.yuanwhy.jobrobot;
 
+import com.yuanwhy.jobrobot.crawler.JobReader;
 import com.yuanwhy.jobrobot.crawler.impl.HttpJobReader;
 import org.junit.Before;
 import org.junit.Test;
@@ -13,7 +14,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class JobRobotApplicationTests {
 
 	@Autowired
-	private HttpJobReader jobReader;
+	private JobReader jobReader;
 
 	@Before
 	public void contextLoads() {

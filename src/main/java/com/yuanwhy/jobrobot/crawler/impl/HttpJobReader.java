@@ -12,6 +12,7 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.io.IOException;
 
@@ -19,7 +20,7 @@ import java.io.IOException;
  * @author hongyuan.why
  * @version $Id: JobReader.java, v 0.1 2018-10-11 9:57 PM hongyuan.why Exp $$
  */
-@Component
+@Service
 public class HttpJobReader implements JobReader{
 
     //专场职位URL
