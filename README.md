@@ -22,3 +22,7 @@ a robot that syncs job information to WeChat group
  - Jsoup - Java HTML Parser
  - Quartz - Scheduler
  - h2database - small DB
+
+## Project Memembers
+  - manager @萌萌哒的John
+  - developer @魏晋风度
