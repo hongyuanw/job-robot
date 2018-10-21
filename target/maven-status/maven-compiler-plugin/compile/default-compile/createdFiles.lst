@@ -1,0 +1,6 @@
+com/yuanwhy/jobrobot/crawler/Parser.class
+com/yuanwhy/jobrobot/crawler/impl/HttpJobReader.class
+com/yuanwhy/jobrobot/crawler/JobReader.class
+com/yuanwhy/jobrobot/model/PositionModel.class
+com/yuanwhy/jobrobot/JobRobotApplication.class
+com/yuanwhy/jobrobot/crawler/impl/HtmlParser.class
