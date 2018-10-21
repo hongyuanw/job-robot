@@ -16,4 +16,5 @@ public interface Parser {
 
     List<PositionModel>  parse(String content);
 
+    List<PositionModel>  workDetailParse(List<String> urls);
 }
