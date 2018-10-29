@@ -10,16 +10,30 @@ package com.yuanwhy.jobrobot.model;
  */
 public class PositionModel {
 
-    /** 职位ID */
+    /**
+     * 职位ID
+     */
     private String id;
 
-    /** 职位名称 */
+    /**
+     * 职位名称
+     */
     private String name;
 
-    /** 工作地点*/
+    /**
+     * 工作地点
+     */
     private String location;
 
-    //todo
+    /**
+     * 招聘人数
+     */
+    private String headCount;
+
+    /**
+     * 发布时间
+     */
+    private String publishDate;
 
 
     public String getId() {
@@ -44,5 +58,21 @@ public class PositionModel {
 
     public void setLocation(String location) {
         this.location = location;
+    }
+
+    public String getHeadCount() {
+        return headCount;
+    }
+
+    public void setHeadCount(String headCount) {
+        this.headCount = headCount;
+    }
+
+    public String getPublishDate() {
+        return publishDate;
+    }
+
+    public void setPublishDate(String publishDate) {
+        this.publishDate = publishDate;
     }
 }
